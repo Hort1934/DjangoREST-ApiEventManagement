@@ -1,0 +1,2 @@
+# DjangoREST-ApiEventManagement
+DjangoREST-ApiEventManagement
