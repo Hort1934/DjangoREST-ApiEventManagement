@@ -22,3 +22,14 @@ A Django REST API for managing events like conferences and meetups. Allows users
 
 ## API Documentation
 Visit `/api/docs/` for Swagger documentation.
+
+## Advanced Features
+
+### Event Search and Filtering
+- Search Events: `/api/events/?search=<keyword>`
+- Filter by Date: `/api/events/?date=<YYYY-MM-DD>`
+- Filter by Location: `/api/events/?location=<location>`
+- Order Events by Date: `/api/events/?ordering=date`
+
+### Email Notifications
+- Users will receive an email notification upon successful registration for an event.
